@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho flex-container">
+            <div><h1>FlexTurismos</h1></div>
+            <li>
+                <a>Quem somos</a>
+                <a>Serviços</a>
+                <a>Planos</a>
+            </li>
+        </div>
+    </header>
+
+    <main>
+        <section class="apresentacao flex-container">
+            <div>
+                <h2>Flex <br> Turimos</h2>
+                <p>O melhor serviço pra você !</p>
+                <button>Saiba mais!</button>
+            </div>
+            <img src="images/0-main.png" alt="">
+        </section>
+
+        <section class="sobre flex-container">
+            <img src="images\1-quem-somos.png" alt="">
+            <div class="quem-somos">
+                <h2>Quem somos</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id sed reprehenderit odit commodi facere <br><br>doloribus facilis dolore consectetur deserunt culpa iure possimus doloremque eveniet veritatis ea libero, quo sapiente. Sed.</p>
+            </div>
+        </section>
+
+        <section class="servicos-bg ">
+            <div class="flex-container column">
+                <h2>Serviços</h2>
+                <div class="flex-container">
+                    <div class="servicos">
+                        <img src="images\icon-1.png" alt="">
+                        <p>Pacotes de viagens</p>
+                        <button>Comprar agora</button>
+                    </div>
+                    <div class="servicos">
+                        <img src="images\icon-2.png" alt="">
+                        <p>Hospedagens</p>
+                        <button>Comprar agora</button>
+                    </div>
+                    <div class="servicos">
+                        <img src="images\icon-3.png" alt="">
+                        <p>Roteiros personailzados</p>
+                        <button>Comprar agora</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex-container column">
+            <h2 class="titulo-planos">Planos</h2>
+            <div class="flex-container itens-plano">    
+                <div class="item-plano plano-1">
+                    <h3>Plano 1</h3>
+                    <ul>
+                        <li>Suporte 24h</li>
+                        <li>Serviços de quarto</li>
+                        <li>Guia turístico</li>
+                    </ul>
+                    <button>Saiba mais!</button>
+                </div>
+                <div class="item-plano plano-2">
+                    <h3>Plano 2</h3>
+                    <ul>
+                        <li>Suporte 24h</li>
+                        <li>Serviços de quarto</li>
+                        <li>Guia turístico</li>
+                        <li>Roteiro de trilhas</li>
+                        <li>Serviço personalizado</li>
+                    </ul>
+                    <button>Saiba mais!</button>
+                </div>
+                <div class="item-plano plano-3">
+                    <h3>Plano 3</h3>
+                    <ul>
+                        <li>Suporte 24h</li>
+                        <li>Serviços de quarto</li>
+                        <li>Guia turístico</li>
+                        <li>Roteiro de trilhas</li>
+                        <li>Serviço personalizado</li>
+                        <li>Área Vip</li>
+                    </ul>
+                    <button>Saiba mais!</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2022 CSS Flexbox</p>
+        <p>Desenvolvido por: <b>Rafaella Souza</b></p>
+    </footer>
+    
+</body>
+</html>
